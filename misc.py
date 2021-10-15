@@ -6,7 +6,7 @@ def parseJsonData():
     data= {}
     # Opening JSON file
     try:
-        f = open('yishun.json')
+        f = open('data.json')
         # returns JSON object as a dictionary into data
         data = json.load(f)
     except:
